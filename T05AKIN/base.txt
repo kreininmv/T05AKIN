@@ -1,0 +1,13 @@
+{DESCR}
+{version 1.0}
+{ENG} //language: RUS/ENG
+
+[
+    ?kkk?
+    [
+        `ABCD`
+    ]
+    [
+        `NEABCD`
+    ]
+]

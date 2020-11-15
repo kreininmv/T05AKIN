@@ -1,0 +1,14 @@
+digraph G{
+node [color="#000000", shape=record];
+struct8093656 [style="filled", fillcolor="#FF019A", label="<f0> left  |<f1> data (is fur) | <f2> right"];
+edge[color = "black"];
+struct8093656:f2 -> struct8093960:f1;
+  struct8093960 [style="filled", fillcolor="#9cfff4", label="<f0> left | <f1> data (is pet) | <f2> right "];
+struct8093960:f2 -> struct8094264:f1;
+  struct8094264 [style="filled", fillcolor="#89F09B", label="<f0> left | <f1> data (dog) | <f2> right "];
+struct8093960 [style="filled", fillcolor="#9cfff4", label="<f0> left | <f1> data (is pet) | <f2> right "];
+struct8093960:f0 -> struct8094112:f1;
+  struct8094112 [style="filled", fillcolor="#89F09B", label="<f0> left | <f1> data (bear) | <f2> right "];
+struct8093656:f0 -> struct8093808:f1;
+  struct8093808 [style="filled", fillcolor="#89F09B", label="<f0> left | <f1> data (pig) | <f2> right "];
+}
