@@ -118,10 +118,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="akin.cpp" />
+    <ClCompile Include="onegin.cpp" />
     <ClCompile Include="T05AKIN.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="akin.h" />
+    <ClInclude Include="onegin.h" />
+    <ClInclude Include="tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,34 @@
+digraph G{
+node [color="#000000", shape=record];
+struct10150760 [style="filled", fillcolor="#FF019A", label="<f0> НЕТ  |<f1> 'Saint-Petersburg?' | <f2> ДА"];
+edge[color = "black"];
+struct10150760:f2 -> struct10150952:f1;
+  struct10150952 [style="filled", fillcolor="#89F09B", label="<f0> НЕТ | <f1> 'Peter the Great' | <f2> ДА "];
+struct10150760:f0 -> struct10151016:f1;
+  struct10151016 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'connects to math?' | <f2> ДА "];
+struct10151016:f2 -> struct10151080:f1;
+  struct10151080 [style="filled", fillcolor="#89F09B", label="<f0> НЕТ | <f1> 'Znamenskaya' | <f2> ДА "];
+struct10151016 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'connects to math?' | <f2> ДА "];
+struct10151016:f0 -> struct10151336:f1;
+  struct10151336 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'human?' | <f2> ДА "];
+struct10151336:f2 -> struct10151784:f1;
+  struct10151784 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'connects to usa?' | <f2> ДА "];
+struct10151784:f2 -> struct10151848:f1;
+  struct10151848 [style="filled", fillcolor="#89F09B", label="<f0> НЕТ | <f1> 'Obama' | <f2> ДА "];
+struct10151784 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'connects to usa?' | <f2> ДА "];
+struct10151784:f0 -> struct10101928:f1;
+  struct10101928 [style="filled", fillcolor="#89F09B", label="<f0> НЕТ | <f1> 'Putin' | <f2> ДА "];
+struct10151336 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'human?' | <f2> ДА "];
+struct10151336:f0 -> struct10173688:f1;
+  struct10173688 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'animal?' | <f2> ДА "];
+struct10173688:f2 -> struct10173432:f1;
+  struct10173432 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'fur?' | <f2> ДА "];
+struct10173432:f2 -> struct10174008:f1;
+  struct10174008 [style="filled", fillcolor="#89F09B", label="<f0> НЕТ | <f1> 'bear' | <f2> ДА "];
+struct10173432 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'fur?' | <f2> ДА "];
+struct10173432:f0 -> struct10174200:f1;
+  struct10174200 [style="filled", fillcolor="#89F09B", label="<f0> НЕТ | <f1> 'pig' | <f2> ДА "];
+struct10173688 [style="filled", fillcolor="#9cfff4", label="<f0> НЕТ | <f1> 'animal?' | <f2> ДА "];
+struct10173688:f0 -> struct10173560:f1;
+  struct10173560 [style="filled", fillcolor="#89F09B", label="<f0> НЕТ | <f1> 'lizard' | <f2> ДА "];
+}

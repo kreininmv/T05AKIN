@@ -1,0 +1,42 @@
+{It's not a Matvei}
+{version 1.0}
+{ENG}
+[
+   ?Saint-Petersburg?
+   [
+       `Peter the Great`
+   ]
+   [
+       ?connects to math?
+       [
+           `Znamenskaya`
+       ]
+       [
+           ?human?
+           [
+               ?connects to usa?
+               [
+                   `Obama`
+               ]
+               [
+                   `Putin`
+               ]
+           ]
+           [
+               ?animal?
+               [
+                   ?fur?
+                   [
+                       `bear`
+                   ]
+                   [
+                       `pig`
+                   ]
+               ]
+               [
+                   `lizard`
+               ]
+           ]
+       ]
+   ]
+]

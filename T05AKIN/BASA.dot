@@ -1,0 +1,29 @@
+digraph G{
+node [color="#000000", shape=record];
+struct11913592 [style="filled", fillcolor="#FF019A", label="<f0> NO  |<f1> data (Is it a Morgenshtern?)| <f2> YES"];
+edge[color = "black"];
+struct11913592:f2 -> struct11913752:f1;
+  struct11913752 [style="filled", fillcolor="#89F09B", label="<f0> NO | <f1> data (Morgenshtern) | <f2> YES "];
+struct11913592:f0 -> struct11914984:f1;
+  struct11914984 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (Is this connected to math?) | <f2> YES "];
+struct11914984:f2 -> struct11915144:f1;
+  struct11915144 [style="filled", fillcolor="#89F09B", label="<f0> NO | <f1> data (Znamenskaya) | <f2> YES "];
+struct11914984 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (Is this connected to math?) | <f2> YES "];
+struct11914984:f0 -> struct11915304:f1;
+  struct11915304 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (Is this a people?) | <f2> YES "];
+struct11915304:f2 -> struct11901344:f1;
+  struct11901344 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (This person from Russia?) | <f2> YES "];
+struct11901344:f2 -> struct11901504:f1;
+  struct11901504 [style="filled", fillcolor="#89F09B", label="<f0> NO | <f1> data (PUTIN) | <f2> YES "];
+struct11901344 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (This person from Russia?) | <f2> YES "];
+struct11901344:f0 -> struct11901664:f1;
+  struct11901664 [style="filled", fillcolor="#89F09B", label="<f0> NO | <f1> data (OBAMA) | <f2> YES "];
+struct11915304 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (Is this a people?) | <f2> YES "];
+struct11915304:f0 -> struct12188200:f1;
+  struct12188200 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (Animal?) | <f2> YES "];
+struct12188200:f2 -> struct12188360:f1;
+  struct12188360 [style="filled", fillcolor="#89F09B", label="<f0> NO | <f1> data (lizard) | <f2> YES "];
+struct12188200 [style="filled", fillcolor="#9cfff4", label="<f0> NO | <f1> data (Animal?) | <f2> YES "];
+struct12188200:f0 -> struct12188520:f1;
+  struct12188520 [style="filled", fillcolor="#89F09B", label="<f0> NO | <f1> data (Oxxxymiron) | <f2> YES "];
+}

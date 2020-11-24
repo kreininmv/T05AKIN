@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Library">
+      <UniqueIdentifier>{064b7ba7-b9c2-4e15-89a0-e3158bb2ea82}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="T05AKIN.cpp">
@@ -21,9 +24,24 @@
     <ClCompile Include="akin.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="onegin.cpp">
+      <Filter>Header Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="akin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="onegin.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
